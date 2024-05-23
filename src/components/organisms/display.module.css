@@ -1,0 +1,41 @@
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    font-size: 1.5rem;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buttonClear {
+    background-color: red;
+    color: white;
+  }
+  
+  .buttonOperator,
+  .buttonEqual {
+    background-color: green;
+    color: white;
+  }
+  
+  .buttonNumber,
+  .buttonParen,
+  .buttonPercent,
+  .buttonSign,
+  .buttonDot {
+    background-color: lightgrey;
+    color: black;
+  }
+  
+  .calculatorInput {
+    grid-column: span 4;
+    font-size: 2rem;
+    text-align: right;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }

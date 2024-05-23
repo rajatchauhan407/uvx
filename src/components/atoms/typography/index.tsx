@@ -1,4 +1,5 @@
-// src/Typography.tsx
+// This component is a simple typography component that accepts the following props: I prepared this component in advance to save time.
+
 import React from 'react';
 
 interface TypographyProps {
