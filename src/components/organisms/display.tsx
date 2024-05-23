@@ -41,10 +41,10 @@ const Display: React.FC = () => {
         {   
             if(stack[stack.length - 1] === '('){
                 setInput(prevInput => prevInput + ')');
-                stack.pop();
+                setStack([]);
             }else{
             setInput(prevInput => prevInput + '(');
-            stack.push('(');
+            setStack(['(']);
             }
         }
         else if(label === '=') {
