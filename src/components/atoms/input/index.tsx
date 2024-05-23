@@ -1,3 +1,5 @@
+// This input component is a simple input component that accepts the following props: I prepared this component in advance to save time.
+
 import React from 'react';
 import styles from './index.module.css';
 
